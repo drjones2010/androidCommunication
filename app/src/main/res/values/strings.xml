@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">AndroidScreens</string>
+
+    <!-- Activity titles -->
+    <string name="activity_1_title">Intent and Extra</string>
+    <string name="activity_2_title" translatable="false">startActivityForResult()</string>
+    <string name="activity_3_title">Fragment navigation</string>
+    <string name="activity_4_title">Fragment arguments (1)</string>
+    <string name="activity_5_title">Fragment arguments (2)</string>
+    <string name="activity_6_title" translatable="false">FragmentDialog</string>
+
+    <!-- Buttons -->
+    <string name="bt_next">Next</string>
+    <string name="bt_back">Back</string>
+    <string name="bt_exit">Exit</string>
+    <string name="bt_dialog" translatable="false">Dialog</string>
+
+    <!-- Labels -->
+    <string name="welcome">Welcome!</string>
+    <string name="instruction">Select the example you want to explore.</string>
+
+    <string name="case1" translatable="false">Intent Extra.</string>
+    <string name="case2" translatable="false">startActivityForResult().</string>
+    <string name="case3">FragmentManager and Fragment navigation.</string>
+    <string name="case4" translatable="false">Fragment bundle arguments.</string>
+    <string name="case5" translatable="false">Fragment bundle arguments (2).</string>
+    <string name="case6">FragmentDialog and setTargetFragment()</string>
+
+    <string name="activity_title">Comm. between Activities</string>
+    <string name="activity">You are on Activity</string>
+    <string name="fragment_title">Comm. between Fragments</string>
+    <string name="fragment">You are on Fragment</string>
+    <string name="fragment_dialog_title">Comm. with Dialogs</string>
+
+    <string name="hint_insert_name">Insert your name</string>
+    <string name="name_is">Your name is:</string>
+    <string name="your_name_here">Your name will be displayed here:</string>
+    <string name="no_name_provided">You have not provided a name!</string>
+    <string name="back_pressed">You have pressed back!</string>
+
+    <string name="dialog_title" translatable="false">Dialog</string>
+    <string name="dialog_body">This is a Dialog</string>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Playground</string>
+    <string name="activity">Sei nell\'Activity</string>
+    <string name="activity_title">Comunicazione tra Activity</string>
+    <string name="bt_back">Indietro</string>
+    <string name="bt_exit">Esci</string>
+    <string name="bt_next">Avanti</string>
+    <string name="dialog_body">Questo è un dialog</string>
+    <string name="case6">Dialog e setTargetFragment()</string>
+    <string name="case3">FragmentManager e navigazione tra Fragment</string>
+    <string name="fragment">Sei nel Fragment</string>
+    <string name="fragment_dialog_title">Comunicazione tra Dialog</string>
+    <string name="fragment_title">Comunicazione tra Fragment</string>
+    <string name="hint_insert_name">Inserisci il tuo nome</string>
+    <string name="instruction">Seleziona l\'esempio che vuoi esplorare.</string>
+    <string name="name_is">Il tuo nome è:</string>
+    <string name="no_name_provided">Non hai inserito un nome!</string>
+    <string name="welcome">Benvenuto!</string>
+    <string name="your_name_here">Il tuo nome sarà visualizzato qui:</string>
+    <string name="back_pressed">Hai premuto indietro!</string>
+    <string name="activity_1_title">Intent e Extra</string>
+    <string name="activity_3_title">Navigazione con i Fragment</string>
+    <string name="activity_4_title">Argomenti per i Fragment (1)</string>
+    <string name="activity_5_title">Argomenti per i Fragment (2)</string>
+</resources>

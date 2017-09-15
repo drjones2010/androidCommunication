@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidcomm">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.androidcomm.WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:parentActivityName=".WelcomeActivity"
+            android:name="com.example.androidcomm.Case1aActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:label="@string/activity_1_title"/>
+        <activity
+            android:parentActivityName=".Case1aActivity"
+            android:name="com.example.androidcomm.Case1bActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:label="@string/activity_1_title"/>
+        <activity
+            android:parentActivityName=".WelcomeActivity"
+            android:name="com.example.androidcomm.Case2aActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:label="@string/activity_2_title"/>
+        <activity
+            android:parentActivityName=".Case1bActivity"
+            android:name="com.example.androidcomm.Case2bActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:label="@string/activity_2_title"/>
+        <activity
+            android:parentActivityName=".WelcomeActivity"
+            android:label="@string/activity_3_title"
+            android:name="com.example.androidcomm.Case3Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity
+            android:parentActivityName=".WelcomeActivity"
+            android:label="@string/activity_4_title"
+            android:name="com.example.androidcomm.Case4Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity
+            android:label="@string/activity_5_title"
+            android:parentActivityName=".WelcomeActivity"
+            android:name="com.example.androidcomm.Case5Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity
+            android:parentActivityName=".WelcomeActivity"
+            android:label="@string/activity_6_title"
+            android:name="com.example.androidcomm.Case6Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+    </application>
+
+</manifest>
